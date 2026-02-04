@@ -104,11 +104,9 @@ Enforce strict co-location: `[feature-name]/[feature-name].[type].[extension]`
 2.  **Scope Rule:** The `<scope>` **MUST** match the `[feature-name]` directory being changed.
     - *Bad:* `feat(auth): ...`
     - *Good:* `feat(auth-controller): ...` (if directory is `auth-controller`)
-3.  **Format:**
+3.  **Format:** Single line only. No body.
     ```text
     <type>(<scope>): <imperative subject>
-
-    <body explaining "what" and "why">
     ```
 4.  **Types:** `feat`, `fix`, `refactor`, `perf`, `test`, `chore`.
 

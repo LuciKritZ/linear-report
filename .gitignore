@@ -6,3 +6,5 @@ generated/
 .DS_Store
 coverage/
 .vitest/
+.docs/
+.cursor/
