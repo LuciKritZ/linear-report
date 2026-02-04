@@ -7,4 +7,4 @@ generated/
 coverage/
 .vitest/
 .docs/
-.cursor/
+.cursor/*
